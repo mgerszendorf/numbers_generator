@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto';
+}
+
+.App{
+  font-size: 24px;
+  font-weight: bold;
+  padding: 4rem;
+  background-color: #228BAE;
+  color: #fff;
+}
+
+@media all and (max-width: 1120px){
+  .App{
+    padding: 1rem;
+  }
+}

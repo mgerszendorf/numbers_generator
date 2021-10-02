@@ -1,0 +1,84 @@
+.app_wrapper{
+    min-height: calc(100vh - 8rem);
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #228BAE;
+}
+
+.results_numbers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.results_numbers p{
+    font-size: 40px;
+    margin: 10px;
+}
+
+.form_fc{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form_fc div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7vh;
+}
+
+.form_fc label{
+    display: flex;
+    align-items: center;
+}
+
+.form_fc input{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.479);
+    border: none;
+    width: 120px;
+    padding: 10px;
+    font-size: 24px;
+    outline: none;
+    border-radius: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+button{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #FF2400;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 50px;
+    align-self: center;
+    margin-top: 8vh;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #bb1900;
+}
+   
+@media all and (max-width: 1120px){
+    .form_fc div{
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .form_fc div label{
+        margin: 2vh 0;
+    }
+
+    .app_wrapper{
+        height: calc(100vh - 2rem);
+    }
+}
